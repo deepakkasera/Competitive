@@ -1,0 +1,407 @@
+[33mcommit 89a62287c9a22e368a663f5fe7cc81f8840c4bff[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Mon Sep 5 01:42:07 2016 +0530
+
+    codeforces problem
+
+ codeforces/BusToUdayland(711A).cpp | 20 [32m++++++++++++++++++++[m
+ 1 file changed, 20 insertions(+)
+
+[33mcommit 857367d07305ffe463ceed359a893192ec61d00d[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 23:36:46 2016 +0530
+
+    codeforces problem
+
+ codeforces/MoreCowbell(604B).cpp | 17 [32m+++++++++++++++++[m
+ 1 file changed, 17 insertions(+)
+
+[33mcommit 8e068145843661c92367938fcb15b38ffb601de8[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 21:51:36 2016 +0530
+
+    codeforces problem
+
+ codeforces/Lottery(589I).cpp | 20 [32m++++++++++++++++++++[m
+ 1 file changed, 20 insertions(+)
+
+[33mcommit a6dc88881049bfcca19ba5d1480feebb364f76d5[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 18:10:24 2016 +0530
+
+    codeforces problem
+
+ codeforces/.gitattributes             | 17 [31m-------------[m
+ codeforces/.gitignore                 | 47 [31m-----------------------------------[m
+ codeforces/TanyaAndPostcard(518B).cpp | 21 [32m++++++++++++++++[m
+ 3 files changed, 21 insertions(+), 64 deletions(-)
+
+[33mcommit 9f082c43b45649d539f0571a9dd12f0f6e91e4c8[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 17:08:47 2016 +0530
+
+    codeforces problem
+
+ codeforces/codeforces/112A.cpp             | 21 [31m-------------------[m
+ codeforces/codeforces/146A.cpp             | 26 [31m-----------------------[m
+ codeforces/codeforces/237A.cpp             | 15 [31m--------------[m
+ codeforces/codeforces/291A.cpp             | 12 [31m-----------[m
+ codeforces/codeforces/320A.cpp             | 20 [31m------------------[m
+ codeforces/codeforces/339A.cpp             | 20 [31m------------------[m
+ codeforces/codeforces/460B.cpp             | 28 [31m-------------------------[m
+ codeforces/codeforces/469A.cpp             | 28 [31m-------------------------[m
+ codeforces/codeforces/486A.cpp             |  8 [31m--------[m
+ codeforces/codeforces/514A.cpp             | 12 [31m-----------[m
+ codeforces/codeforces/527A.cpp             | 19 [31m-----------------[m
+ codeforces/codeforces/545A.cpp             | 22 [31m--------------------[m
+ codeforces/codeforces/552A.cpp             | 14 [31m-------------[m
+ codeforces/codeforces/567A.cpp             | 19 [31m-----------------[m
+ codeforces/codeforces/583A.cpp             | 18 [31m----------------[m
+ codeforces/codeforces/586B.cpp             | 17 [31m---------------[m
+ codeforces/codeforces/592B.cpp             |  9 [31m--------[m
+ codeforces/codeforces/596B.cpp             | 13 [31m------------[m
+ codeforces/codeforces/672B.cpp             | 17 [31m---------------[m
+ codeforces/codeforces/678A.cpp             |  9 [31m--------[m
+ codeforces/codeforces/691A.cpp             | 24 [31m----------------------[m
+ codeforces/codeforces/699A.cpp             | 19 [31m-----------------[m
+ codeforces/codeforces/701A.cpp             | 25 [31m----------------------[m
+ codeforces/codeforces/701B.cpp             | 33 [31m------------------------------[m
+ codeforces/codeforces/701D.cpp             | 14 [31m-------------[m
+ codeforces/codeforces/702A.cpp             | 21 [31m-------------------[m
+ codeforces/codeforces/702B.cpp             | 15 [31m--------------[m
+ codeforces/codeforces/703A.cpp             | 31 [31m----------------------------[m
+ codeforces/codeforces/704A.cpp             | 19 [31m-----------------[m
+ codeforces/codeforces/705A.cpp             | 14 [31m-------------[m
+ codeforces/codeforces/707A.cpp             | 27 [31m------------------------[m
+ codeforces/codeforces/707C.cpp             | 13 [31m------------[m
+ codeforces/codeforces/709A.cpp             | 20 [31m------------------[m
+ codeforces/codeforces/709B.cpp             | 11 [31m----------[m
+ codeforces/codeforces/709C.cpp             | 19 [31m-----------------[m
+ codeforces/codeforces/710A.cpp             | 13 [31m------------[m
+ codeforces/codeforces/Airport(218B).cpp    | 26 [31m-----------------------[m
+ codeforces/codeforces/Bakery(707B).cpp     | 23 [31m---------------------[m
+ codeforces/codeforces/Checkpoints.cpp      | 22 [31m--------------------[m
+ codeforces/codeforces/Gena'sCode(614B).cpp | 23 [31m---------------------[m
+ codeforces/codeforces/HugrySequence.cpp    | 12 [31m-----------[m
+ codeforces/codeforces/Mystery.cpp          | 25 [31m----------------------[m
+ codeforces/codeforces/chatOnline(496B).cpp | 22 [31m--------------------[m
+ 43 files changed, 818 deletions(-)
+
+[33mcommit adfabadd1a9bb36dfb367d1dfd21e17238d81456[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 17:06:40 2016 +0530
+
+    codeforces problem
+
+ 112A.cpp              | 21 [31m---------------------[m
+ 146A.cpp              | 26 [31m--------------------------[m
+ 237A.cpp              | 15 [31m---------------[m
+ 291A.cpp              | 12 [31m------------[m
+ 320A.cpp              | 20 [31m--------------------[m
+ 339A.cpp              | 20 [31m--------------------[m
+ 460B.cpp              | 28 [31m----------------------------[m
+ 469A.cpp              | 28 [31m----------------------------[m
+ 486A.cpp              |  8 [31m--------[m
+ 514A.cpp              | 12 [31m------------[m
+ 527A.cpp              | 19 [31m-------------------[m
+ 545A.cpp              | 22 [31m----------------------[m
+ 552A.cpp              | 14 [31m--------------[m
+ 567A.cpp              | 19 [31m-------------------[m
+ 583A.cpp              | 18 [31m------------------[m
+ 586B.cpp              | 17 [31m-----------------[m
+ 592B.cpp              |  9 [31m---------[m
+ 596B.cpp              | 13 [31m-------------[m
+ 672B.cpp              | 17 [31m-----------------[m
+ 678A.cpp              |  9 [31m---------[m
+ 691A.cpp              | 24 [31m------------------------[m
+ 699A.cpp              | 19 [31m-------------------[m
+ 701A.cpp              | 25 [31m-------------------------[m
+ 701B.cpp              | 33 [31m---------------------------------[m
+ 701D.cpp              | 14 [31m--------------[m
+ 702A.cpp              | 21 [31m---------------------[m
+ 702B.cpp              | 15 [31m---------------[m
+ 703A.cpp              | 31 [31m-------------------------------[m
+ 704A.cpp              | 19 [31m-------------------[m
+ 705A.cpp              | 14 [31m--------------[m
+ 707A.cpp              | 27 [31m---------------------------[m
+ 707C.cpp              | 13 [31m-------------[m
+ 709A.cpp              | 20 [31m--------------------[m
+ 709B.cpp              | 11 [31m-----------[m
+ 709C.cpp              | 19 [31m-------------------[m
+ 710A.cpp              | 13 [31m-------------[m
+ Airport(218B).cpp     | 26 [31m--------------------------[m
+ Bakery(707B).cpp      | 23 [31m-----------------------[m
+ Checkpoints.cpp       | 22 [31m----------------------[m
+ FootballKit(432B).cpp | 18 [31m------------------[m
+ HugrySequence.cpp     | 12 [31m------------[m
+ Mystery.cpp           | 25 [31m-------------------------[m
+ OneBomb(699B).cpp     | 31 [31m-------------------------------[m
+ Permutation(137B).cpp | 20 [31m--------------------[m
+ chatOnline(496B).cpp  | 22 [31m----------------------[m
+ 45 files changed, 864 deletions(-)
+
+[33mcommit d0ad9b9553071ea506000e0e10b2bc421c73aabe[m
+Merge: ef50e81 b36cf5a
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 17:04:24 2016 +0530
+
+    Merge branch 'master' of https://github.com/deepakkasera/Competitive
+    temp
+
+[33mcommit ef50e819e4b52ea1550ca2181342745d1d71db3e[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 17:03:31 2016 +0530
+
+    codeforces problem
+
+ codeforces/.gitattributes                        | 17 [32m+++++++++[m
+ codeforces/.gitignore                            | 47 [32m++++++++++++++++++++++++[m
+ codeforces/FootballKit(432B).cpp                 | 18 [32m+++++++++[m
+ codeforces/OneBomb(699B).cpp                     | 31 [32m++++++++++++++++[m
+ codeforces/Permutation(137B).cpp                 | 20 [32m++++++++++[m
+ codeforces/codeforces/112A.cpp                   | 21 [32m+++++++++++[m
+ codeforces/codeforces/146A.cpp                   | 26 [32m+++++++++++++[m
+ codeforces/codeforces/237A.cpp                   | 15 [32m++++++++[m
+ codeforces/codeforces/291A.cpp                   | 12 [32m++++++[m
+ codeforces/codeforces/320A.cpp                   | 20 [32m++++++++++[m
+ codeforces/codeforces/339A.cpp                   | 20 [32m++++++++++[m
+ codeforces/codeforces/460B.cpp                   | 28 [32m++++++++++++++[m
+ codeforces/codeforces/469A.cpp                   | 28 [32m++++++++++++++[m
+ codeforces/codeforces/486A.cpp                   |  8 [32m++++[m
+ codeforces/codeforces/514A.cpp                   | 12 [32m++++++[m
+ codeforces/codeforces/527A.cpp                   | 19 [32m++++++++++[m
+ codeforces/codeforces/545A.cpp                   | 22 [32m+++++++++++[m
+ codeforces/codeforces/552A.cpp                   | 14 [32m+++++++[m
+ codeforces/codeforces/567A.cpp                   | 19 [32m++++++++++[m
+ codeforces/codeforces/583A.cpp                   | 18 [32m+++++++++[m
+ codeforces/codeforces/586B.cpp                   | 17 [32m+++++++++[m
+ codeforces/codeforces/592B.cpp                   |  9 [32m+++++[m
+ codeforces/codeforces/596B.cpp                   | 13 [32m+++++++[m
+ codeforces/codeforces/672B.cpp                   | 17 [32m+++++++++[m
+ codeforces/codeforces/678A.cpp                   |  9 [32m+++++[m
+ codeforces/codeforces/691A.cpp                   | 24 [32m++++++++++++[m
+ codeforces/codeforces/699A.cpp                   | 19 [32m++++++++++[m
+ codeforces/codeforces/701A.cpp                   | 25 [32m+++++++++++++[m
+ codeforces/codeforces/701B.cpp                   | 33 [32m+++++++++++++++++[m
+ codeforces/codeforces/701D.cpp                   | 14 [32m+++++++[m
+ codeforces/codeforces/702A.cpp                   | 21 [32m+++++++++++[m
+ codeforces/codeforces/702B.cpp                   | 15 [32m++++++++[m
+ codeforces/codeforces/703A.cpp                   | 31 [32m++++++++++++++++[m
+ codeforces/codeforces/704A.cpp                   | 19 [32m++++++++++[m
+ codeforces/codeforces/705A.cpp                   | 14 [32m+++++++[m
+ codeforces/codeforces/707A.cpp                   | 27 [32m++++++++++++++[m
+ codeforces/codeforces/707C.cpp                   | 13 [32m+++++++[m
+ codeforces/codeforces/709A.cpp                   | 20 [32m++++++++++[m
+ codeforces/codeforces/709B.cpp                   | 11 [32m++++++[m
+ codeforces/codeforces/709C.cpp                   | 19 [32m++++++++++[m
+ codeforces/codeforces/710A.cpp                   | 13 [32m+++++++[m
+ codeforces/codeforces/Airport(218B).cpp          | 26 [32m+++++++++++++[m
+ codeforces/codeforces/Bakery(707B).cpp           | 23 [32m++++++++++++[m
+ codeforces/codeforces/Checkpoints.cpp            | 22 [32m+++++++++++[m
+ codeforces/{ => codeforces}/Gena'sCode(614B).cpp |  0
+ codeforces/codeforces/HugrySequence.cpp          | 12 [32m++++++[m
+ codeforces/codeforces/Mystery.cpp                | 25 [32m+++++++++++++[m
+ codeforces/codeforces/chatOnline(496B).cpp       | 22 [32m+++++++++++[m
+ 48 files changed, 928 insertions(+)
+
+[33mcommit b36cf5ab55dffbf8ef3d776505d7675c2206db20[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 17:02:19 2016 +0530
+
+    temp
+
+[33mcommit 11ef0c8b894b819cae3c4bae1705a408aca46490[m
+Merge: c592a2a ddcb3a6
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 16:57:52 2016 +0530
+
+    Merge branch 'master' of https://github.com/deepakkasera/Competitive
+    codeforces problem
+
+[33mcommit c592a2ac5f6f91d0fd8965a17d361d18bd40b054[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 16:52:34 2016 +0530
+
+    codeforces problem
+
+ OneBomb(699B).cpp | 31 [32m+++++++++++++++++++++++++++++++[m
+ 1 file changed, 31 insertions(+)
+
+[33mcommit 67b3b715b6f40bdf34a066b7376d7e0319a01604[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 13:38:33 2016 +0530
+
+    codeforces problem
+
+ Gena'sCode(614B).cpp      | 23 [31m-----------------------[m
+ ModularExponentiation.cpp | 20 [31m--------------------[m
+ 2 files changed, 43 deletions(-)
+
+[33mcommit 263dab92c058c77be7780e641270fb7661a2876d[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sun Sep 4 13:35:13 2016 +0530
+
+    codeforces problem
+
+ Airport(218B).cpp         | 26 [32m++++++++++++++++++++++++++[m
+ FootballKit(432B).cpp     | 18 [32m++++++++++++++++++[m
+ Gena'sCode(614B).cpp      | 23 [32m+++++++++++++++++++++++[m
+ ModularExponentiation.cpp | 20 [32m++++++++++++++++++++[m
+ Permutation(137B).cpp     | 20 [32m++++++++++++++++++++[m
+ PrisionTransfer(427B).cpp | 15 [31m---------------[m
+ 6 files changed, 107 insertions(+), 15 deletions(-)
+
+[33mcommit ddcb3a627956f07958eb28b3c2b90cf80b45f673[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Sat Sep 3 13:33:16 2016 +0530
+
+    codeforces problem
+
+ codeforces/Airport(218B).cpp    | 26 [32m++++++++++++++++++++++++++[m
+ codeforces/Checkpoints.cpp      | 22 [32m++++++++++++++++++++++[m
+ codeforces/Gena'sCode(614B).cpp | 23 [32m+++++++++++++++++++++++[m
+ codeforces/Mystery.cpp          | 25 [32m+++++++++++++++++++++++++[m
+ codeforces/chatOnline(496B).cpp | 22 [32m++++++++++++++++++++++[m
+ 5 files changed, 118 insertions(+)
+
+[33mcommit d496f31c228ceb3fb0dbac33e24398f248c8bc83[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Fri Sep 2 22:38:19 2016 +0530
+
+    codeforces problems
+
+ Mystery.cpp          | 25 [32m+++++++++++++++++++++++++[m
+ chatOnline(496B).cpp | 22 [32m++++++++++++++++++++++[m
+ 2 files changed, 47 insertions(+)
+
+[33mcommit d9f5c53751889c0ebe149f5ba0f23736ed8f92d6[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Wed Aug 31 03:43:01 2016 -0700
+
+    Codeforces PRoblems
+
+ 112A.cpp                  | 21 [32m+++++++++++++++++++++[m
+ 146A.cpp                  | 26 [32m++++++++++++++++++++++++++[m
+ 237A.cpp                  | 15 [32m+++++++++++++++[m
+ 291A.cpp                  | 12 [32m++++++++++++[m
+ 320A.cpp                  | 20 [32m++++++++++++++++++++[m
+ 339A.cpp                  | 20 [32m++++++++++++++++++++[m
+ 460B.cpp                  | 28 [32m++++++++++++++++++++++++++++[m
+ 469A.cpp                  | 28 [32m++++++++++++++++++++++++++++[m
+ 486A.cpp                  |  8 [32m++++++++[m
+ 514A.cpp                  | 12 [32m++++++++++++[m
+ 527A.cpp                  | 19 [32m+++++++++++++++++++[m
+ 545A.cpp                  | 22 [32m++++++++++++++++++++++[m
+ 552A.cpp                  | 14 [32m++++++++++++++[m
+ 567A.cpp                  | 19 [32m+++++++++++++++++++[m
+ 583A.cpp                  | 18 [32m++++++++++++++++++[m
+ 586B.cpp                  | 17 [32m+++++++++++++++++[m
+ 592B.cpp                  |  9 [32m+++++++++[m
+ 596B.cpp                  | 13 [32m+++++++++++++[m
+ 672B.cpp                  | 17 [32m+++++++++++++++++[m
+ 678A.cpp                  |  9 [32m+++++++++[m
+ 691A.cpp                  | 24 [32m++++++++++++++++++++++++[m
+ 699A.cpp                  | 19 [32m+++++++++++++++++++[m
+ 701A.cpp                  | 25 [32m+++++++++++++++++++++++++[m
+ 701B.cpp                  | 33 [32m+++++++++++++++++++++++++++++++++[m
+ 701D.cpp                  | 14 [32m++++++++++++++[m
+ 702A.cpp                  | 21 [32m+++++++++++++++++++++[m
+ 702B.cpp                  | 15 [32m+++++++++++++++[m
+ 703A.cpp                  | 31 [32m+++++++++++++++++++++++++++++++[m
+ 704A.cpp                  | 19 [32m+++++++++++++++++++[m
+ 705A.cpp                  | 14 [32m++++++++++++++[m
+ 707A.cpp                  | 27 [32m+++++++++++++++++++++++++++[m
+ 707C.cpp                  | 13 [32m+++++++++++++[m
+ 709A.cpp                  | 20 [32m++++++++++++++++++++[m
+ 709B.cpp                  | 11 [32m+++++++++++[m
+ 709C.cpp                  | 19 [32m+++++++++++++++++++[m
+ 710A.cpp                  | 13 [32m+++++++++++++[m
+ Bakery(707B).cpp          | 23 [32m+++++++++++++++++++++++[m
+ Checkpoints.cpp           | 22 [32m++++++++++++++++++++++[m
+ HugrySequence.cpp         | 12 [32m++++++++++++[m
+ PrisionTransfer(427B).cpp | 15 [32m+++++++++++++++[m
+ 40 files changed, 737 insertions(+)
+
+[33mcommit 76a7c122c077db2aafab7ce70ab54128b2366474[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Tue Aug 30 07:10:08 2016 -0700
+
+    codeforces problems
+
+ codeforces/320A.cpp          | 20 [32m++++++++++++++++++++[m
+ codeforces/460B.cpp          | 28 [32m++++++++++++++++++++++++++++[m
+ codeforces/586B.cpp          | 17 [32m+++++++++++++++++[m
+ codeforces/596B.cpp          | 13 [32m+++++++++++++[m
+ codeforces/Bakery(707B).cpp  | 23 [32m+++++++++++++++++++++++[m
+ codeforces/HugrySequence.cpp | 12 [32m++++++++++++[m
+ 6 files changed, 113 insertions(+)
+
+[33mcommit f84a891fe8a220608ea2707d8765e48b06a2e51c[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Fri Aug 26 09:53:34 2016 -0700
+
+    codeforces problems
+
+[33mcommit 4e920c88ddb4df8c056d0407e2f3740749dde85d[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Fri Aug 26 09:52:31 2016 -0700
+
+    codeforces problems
+
+[33mcommit 0ace752d9a08c477f699e5ef637565f460cebe73[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Fri Aug 26 09:44:59 2016 -0700
+
+    sd
+
+ codeforces/112A.cpp | 21 [32m+++++++++++++++++++++[m
+ codeforces/237A.cpp | 15 [32m+++++++++++++++[m
+ codeforces/291A.cpp | 12 [32m++++++++++++[m
+ codeforces/339A.cpp | 20 [32m++++++++++++++++++++[m
+ codeforces/469A.cpp | 28 [32m++++++++++++++++++++++++++++[m
+ codeforces/486A.cpp |  8 [32m++++++++[m
+ codeforces/514A.cpp | 12 [32m++++++++++++[m
+ codeforces/527A.cpp | 19 [32m+++++++++++++++++++[m
+ codeforces/567A.cpp | 19 [32m+++++++++++++++++++[m
+ codeforces/583A.cpp | 18 [32m++++++++++++++++++[m
+ codeforces/678A.cpp |  9 [32m+++++++++[m
+ codeforces/691A.cpp | 24 [32m++++++++++++++++++++++++[m
+ codeforces/699A.cpp | 19 [32m+++++++++++++++++++[m
+ codeforces/701A.cpp | 25 [32m+++++++++++++++++++++++++[m
+ codeforces/701B.cpp | 33 [32m+++++++++++++++++++++++++++++++++[m
+ codeforces/701D.cpp | 14 [32m++++++++++++++[m
+ codeforces/702A.cpp | 21 [32m+++++++++++++++++++++[m
+ codeforces/702B.cpp | 15 [32m+++++++++++++++[m
+ codeforces/703A.cpp | 31 [32m+++++++++++++++++++++++++++++++[m
+ codeforces/704A.cpp | 19 [32m+++++++++++++++++++[m
+ codeforces/705A.cpp | 14 [32m++++++++++++++[m
+ codeforces/707A.cpp | 27 [32m+++++++++++++++++++++++++++[m
+ codeforces/707C.cpp | 13 [32m+++++++++++++[m
+ codeforces/709A.cpp | 20 [32m++++++++++++++++++++[m
+ codeforces/709B.cpp | 11 [32m+++++++++++[m
+ codeforces/709C.cpp | 19 [32m+++++++++++++++++++[m
+ codeforces/710A.cpp | 13 [32m+++++++++++++[m
+ 27 files changed, 499 insertions(+)
+
+[33mcommit 84fe9e77f5721e8b9f36bcb5f75b070ea56771e3[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Fri Aug 26 09:07:02 2016 -0700
+
+    codeforces problems
+
+ codeforces/146A.cpp | 26 [32m++++++++++++++++++++++++++[m
+ codeforces/545A.cpp | 22 [32m++++++++++++++++++++++[m
+ codeforces/552A.cpp | 14 [32m++++++++++++++[m
+ codeforces/592B.cpp |  9 [32m+++++++++[m
+ codeforces/672B.cpp | 17 [32m+++++++++++++++++[m
+ 5 files changed, 88 insertions(+)
+
+[33mcommit d079dab271c2a451a7a84f1dc4b7bf014a373435[m
+Author: deepakkasera <deepak.kasera143.dk@gmail.com>
+Date:   Fri Aug 26 09:03:08 2016 -0700
+
+    :tada: Added .gitattributes & .gitignore files
+
+ .gitattributes | 17 [32m+++++++++++++++++[m
+ .gitignore     | 47 [32m+++++++++++++++++++++++++++++++++++++++++++++++[m
+ 2 files changed, 64 insertions(+)
